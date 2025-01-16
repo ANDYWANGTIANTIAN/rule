@@ -390,6 +390,7 @@
                 ],
                 "outbound": "🎯 全球直连"
             },
+            { "port_range": ["10000:"], "outbound": "🎯 全球直连" },
             {
                 "rule_set": [
                     "geosite-private",
