@@ -98,6 +98,7 @@
       { "clash_mode": "direct", "outbound": "🎯 全球直连" },
       { "clash_mode": "global", "outbound": "GLOBAL" },
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "🎯 全球直连" },
+      {"domain_keyword": ["dl-a10b-"], "action": "route", "outbound": "🎯 全球直连"},
       { "rule_set": ["geosite-private", "geoip-private"], "outbound": "🎯 全球直连" },
       { "domain_keyword": ["dl-a10b-"], "outbound": "🎯 全球直连"},
       { "rule_set": "geosite-chat", "outbound": "🤖 OpenAI" },
