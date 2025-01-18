@@ -42,7 +42,7 @@
     {
       "type": "tproxy",
       "tag": "tproxy-in",
-      "listen": "0.0.0.0",
+      "listen": "::",
       "listen_port": 7895,
       "sniff": true,
       "sniff_override_destination": false
@@ -95,12 +95,13 @@
         "auto_detect_interface": true,
         "final": "🐠 漏网之鱼",
     "rules": [
+      {"protocol": ["quic"],"outbound": "block"},
       { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "outbound": "dns-out" },
       { "clash_mode": "direct", "outbound": "🎯 全球直连" },
       { "clash_mode": "global", "outbound": "GLOBAL" },
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "🎯 全球直连" },
       { "port": [63219,7777,8085,5667,8005,5006,8097,4396,445,9999], "outbound": "🎯 全球直连" },
-      { "domain_keyword": ["dl-a10b-"], "outbound": "🎯 全球直连"},
+      { "domain_keyword": ["dl-a10b-","dl-z01a-"], "outbound": "🎯 全球直连"},
       { "protocol": ["bittorrent"], "outbound": "🎯 全球直连" },
       { "rule_set": "geosite-chat", "outbound": "🤖 OpenAI" },
       { "rule_set": "geosite-github", "outbound": "👨‍💻 Github" },
