@@ -28,7 +28,7 @@
       {"tag": "defaultDns", "address": "223.5.5.5", "address_strategy": "prefer_ipv4", "detour": "🎯 全球直连"}
     ],
     "rules": [
-      { "outbound": "any", "server": "defaultDns", "disable_cache": true },
+      { "outbound": "any", "server": "defaultDns", "disable_cache": false },
       { "clash_mode": "direct", "server": "localDns" },
       { "clash_mode": "global", "server": "proxyDns" },
       { "rule_set": "geosite-cn", "server": "localDns" },
