@@ -49,7 +49,7 @@
       "route_exclude_address_set": ["geoip-cn"],
       "sniff": true,
       "stack": "mixed",
-      "domain_strategy": "prefer_ipv4"
+      "domain_strategy": "prefer_ipv4",
       "platform": {
         "http_proxy": {
           "enabled": true,
