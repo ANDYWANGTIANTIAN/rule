@@ -97,6 +97,7 @@
       { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "outbound": "dns-out" },
       { "clash_mode": "direct", "outbound": "🎯 全球直连" },
       { "clash_mode": "global", "outbound": "GLOBAL" },
+      { "ip_version": 6, "outbound": "🎯 全球直连"},
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "🎯 全球直连" },
       { "protocol": ["bittorrent"], "outbound": "🎯 全球直连" },
       { "port_range": ["10000:"], "outbound": "🎯 全球直连" },
