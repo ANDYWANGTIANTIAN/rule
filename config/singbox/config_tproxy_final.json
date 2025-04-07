@@ -101,6 +101,7 @@
      { "port": [63219,7777,8085,5667,8005,5006,8097,4396,445,9999], "outbound": "🎯 全球直连" },
       { "domain_keyword": ["dl-a10b-", "dl-z01a-", "arcjav09", "ipv6", "andytt"], "outbound": "🎯 全球直连"},
       { "protocol": ["bittorrent"], "outbound": "🎯 全球直连" },
+     { "domain_keyword": "apple-relay", "outbound": "🤖 OpenAI"},
      {"rule_set": "geosite-chat", "outbound": "🤖 OpenAI"},
      { "rule_set": ["geosite-biliintl", "geosite-bilibili"], "outbound": "📺 Bilibili" },
      {"rule_set": "geosite-youtube", "outbound": "📹 YouTube"},
