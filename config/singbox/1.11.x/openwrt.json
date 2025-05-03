@@ -46,7 +46,18 @@
     "tag": "tproxy-in",
     "listen": "0.0.0.0",
     "listen_port": 7895
-  }
+  },
+  {
+      "type": "socks",
+      "tag": "socks-in",
+      "listen": "192.168.100.1",
+      "listen_port": 8990,
+      "sniff": true,
+      "users": [{
+      "username": "tv",
+      "password": "123456"
+    }]
+    }
 ],
 
   "outbounds": [
