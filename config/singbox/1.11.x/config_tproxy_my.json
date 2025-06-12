@@ -96,7 +96,7 @@
      {"protocol": "dns", "action": "hijack-dns"},
      {"clash_mode": "direct", "outbound": "🎯 全球直连"},
      {"clash_mode": "global", "outbound": "GLOBAL"},
-     {"domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "🎯 全球直连"},
+     {"domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one", "ipip.net", "freetv.top"], "outbound": "🎯 全球直连"},
      {"rule_set": "geosite-private", "outbound": "🎯 全球直连"},
      { "port": [63219,7777,8085,5667,8005,5006,8097,4396,445,9999], "outbound": "🎯 全球直连" },
       { "domain_keyword": ["dl-a10b-", "dl-z01a-", "arcjav09", "ipv6", "andytt"], "outbound": "🎯 全球直连"},
